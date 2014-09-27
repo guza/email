@@ -1,8 +1,8 @@
 Contact::Application.routes.draw do
 
+	#get 'email/email_form' => 'email#email_form'
+	post 'email/email_send' => 'email#email_send'
 	get 'email/email_form' => 'email#email_form'
-	get 'email/email_send' => 'email#email_send'
-
 
 
   # The priority is based upon order of creation: first created -> highest priority.
